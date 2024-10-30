@@ -1,0 +1,23 @@
+1. NoSQL singkatan dari "Not Only SQL" adalah basis data yang tidak menggunakan tabel relasional. Ia lebih fleksibel dalam menyimpan data dengan berbagai format yang dinamis dan cocok untuk menangani data yang sering berubah tanpa skema tetap.
+
+2. 
+NoSQL: Digunakan ketika data tidak memiliki struktur tetap atau sering berubah, dan membutuhkan skalabilitas horizontal. NoSQL cocok untuk operasi baca dan tulis cepat, terutama dengan data besar yang tidak perlu relasi antar tabel.
+
+RDBMS: Digunakan ketika data memiliki struktur yang jelas dan konsisten, serta memerlukan relasi antar tabel. Cocok untuk transaksi yang kompleks dan membutuhkan konsistensi data yang tinggi.
+
+3. Tools/Platform NoSQL
+MongoDB: Document oriented, data yang disimpan dalam format JSON yang memungkinkan fleksibilitas dan skalabilitas, cocok untuk kebutuhan skala besar karena menggunakan skala horizontal.
+
+Redis: Platform ini sederhana, cepan dan efisien untuk penyimpanan dan pengambilan data. Data disimpan dalam memori memberikan latensi yang sangat rendah dan kinerja yang tinggi. Redis juga mendukung struktur data yang kompleks.
+
+4. Airflow adalah platform open-source yang digunakan untuk membangun, menjadwalkan, dan memantau alur kerja(workflow) dalam pemrosesan data. 
+
+5 Great Expectations adalah alat untuk memvalidasi dan memastikan kualitas data. Alat ini membantu memastikan bahwa data yang diproses memenuhi standar dan ekspektasi yang ditetapkan sebelum digunakan lebih lanjut. Dengan menggunakan Great Expectations, pengguna dapat mencegah masalah yang disebabkan oleh data yang tidak sesuai, sehingga meningkatkan keandalan dan akurasi analisis data.
+
+6. Batch Processing adalah teknik pemrosesan data di mana data dikumpulkan selama periode waktu tertentu dan kemudian diproses secara bersamaan. Metode ini mengelompokkan data dan menjalankannya dalam interval waktu tertentu.
+
+Contoh Kasus: Pengolahan Data Pelanggan Bulanan
+Sebuah toko online mengumpulkan data pelanggan setiap hari, seperti pendaftaran akun, pembelian, dan keluhan. Pada akhir bulan, semua data ini diproses sekaligus untuk membuat laporan tentang jumlah pelanggan baru, total penjualan, dan masalah yang perlu diperbaiki. Laporan ini membantu toko untuk memahami kinerja bulan lalu dan merencanakan perbaikan di bulan berikutnya.
+
+Tools: Salah satu alat yang bisa digunakan adalah Apache Airflow, yang membantu mengatur dan menjadwalkan proses pengolahan data ini.
+
